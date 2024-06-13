@@ -10,6 +10,5 @@ public interface ICourseService {
 
     Course findById(Long id);
 
-    void saveCourse(Course course);
-
+    void save(Course course);
 }

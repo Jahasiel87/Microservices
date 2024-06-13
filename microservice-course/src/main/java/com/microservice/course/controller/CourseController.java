@@ -17,7 +17,7 @@ public class CourseController {
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public void saveCourse(@RequestBody Course course){
-        courseService.saveCourse(course);
+        courseService.save(course);
     }
 
     @GetMapping("/all")
